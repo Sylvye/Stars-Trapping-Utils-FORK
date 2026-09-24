@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.mrnofade.starstrappingutils.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "SoundInstanceMixin",
+    "ArrowLifeMixin",
+    "SignEditorMixin",
+    "TrapdoorBowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,5 @@
+.gradle/
+build/
+run/
+remappedSrc/
+.DS_Store
