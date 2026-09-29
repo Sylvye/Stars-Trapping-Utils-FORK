@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "starstrappingutils",
+  "version": "1.0.0",
+  "name": "Star's Trapping Utils",
+  "description": "Made by MrNoFade, idea by star100.",
+  "authors": ["MrNoFade"],
+  "license": "MIT",
+  "icon": "assets/starstrappingutils/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.mrnofade.starstrappingutils.StuServerInit"],
+    "client": ["dev.mrnofade.starstrappingutils.StarTrappingUtils"]
+  },
+  "mixins": ["starstrappingutils.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11"
+  }
+}
